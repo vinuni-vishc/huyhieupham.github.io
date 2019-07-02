@@ -169,7 +169,51 @@
             <td>
               <heading>Publications</heading>	    
             </td>
+
+		  <tr onmouseout="loss_stop()" onmouseover="loss_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='loss_image'><img src='images/CVIU_figure.png'></div>
+                <img src='images/CVIU_figure.png'>
+              </div>
+              <script type="text/javascript">
+                function loss_start() {
+                  document.getElementById('loss_image').style.opacity = "1";
+                }
+                function loss_stop() {
+                  document.getElementById('loss_image').style.opacity = "0";
+                }
+                loss_stop()
+              </script>		    
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.sciencedirect.com/science/article/pii/S1077314218300389">
+                <papertitle>Exploiting Deep Residual Networks for Human Action Recognition from Skeletal Data</papertitle>
+              </a>
+	      <br> 
+	      <font color="red"><strong>Journal Paper</strong></font>    
+              <br>
+              <strong>Huy Hieu Pham</strong>, 
+	      <a href="https://www.researchgate.net/profile/Louahdi_Khoudour">Louahdi Khoudour</a>,
+	      <a href="https://www.irit.fr/~Alain.Crouzil/">Alain Crouzil</a>,
+	      <a href="https://www.researchgate.net/profile/Pablo_Zegers">Pablo Zegers</a>, and
+	      <a href="https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/FormularioTextoDosColumnas/1371216239282/Very_experienced_fellow">Sergio A Velastin</a>
+              <br>
+              <em>Computer Vision and Image Understanding</em>, 2018
+              <br>
+              <a href="https://arxiv.org/pdf/1803.07781.pdf">ArXiv</a> /
+	      <a href="https://doi.org/10.1016/j.cviu.2018.03.003">DOI</a> /    
+	      <a href="https://github.com/huyhieupham/Improved-ResNet-Action-Recognition-Skeletal-Data">Code</a> /
+              <a href="data/HieuPham_CVIU_2018.bib">BibTeX</a>
+              <p></p>
+              <p>.</p>
+            </td>
+          </tr>
+	  </tr>
+        </table>  
 		  
+	<table width="95%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
 	<tr onmouseout="loss_stop()" onmouseover="loss_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -206,9 +250,7 @@
           </tr>
 	  </tr>
         </table>  
-		  
-		  
-
+		
 	<table width="95%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr> 	  
 	   <tr onmouseout="loss_stop()" onmouseover="loss_start()" bgcolor="#ffffd0">
